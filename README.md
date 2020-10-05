@@ -6,6 +6,4 @@ git checkout -b branch_name
 
 Open the New issues sections and check the issues that you think suits you.
 
-#
-git add .
-git commit  -m ""
+
