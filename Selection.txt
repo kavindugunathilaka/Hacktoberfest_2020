@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+void selsort(int array[], int size)
+{
+    int i, minIndex, minValue,index;
+    for (i = 0; i < (size - 1); i++)
+    {
+        minIndex = i;
+        minValue = array[i];
+        for(index=i+1; index < size; index++)
+        {
+            if (array[index] < minValue)
+            {
+                minValue = array[index];
+                minIndex = index;
+            }
+        }
+
+        array[minIndex] = array[i];
+        array[i] = minValue;
+    }
+}
+
+
+void main()
+{
+    int i, a[]={68,27,13,20,9};
+    selsort(a,5);
+    printf("\n");
+    for(i=0;i<5;i++)
+        printf("%i\t",a[i]);
+
+}

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1525669317 source:e:\c programs\linear_search\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1530525804 source:c:\users\lab1\desktop\algo\linear_search\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1538987967 source:e:\c programs\linearsearchnew\main.c
+	<stdio.h>
+	<stdlib.h>
+

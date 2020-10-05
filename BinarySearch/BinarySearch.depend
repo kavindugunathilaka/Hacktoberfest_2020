@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1539670946 source:e:\c programs\binarysearch\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1548137030 source:c:\users\lab1\desktop\algo\binarysearch\main.c
+	<stdio.h>
+	<stdlib.h>
+
